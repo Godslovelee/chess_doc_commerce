@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Chess-NFT',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
@@ -22,7 +21,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
-
   final String title;
 
   @override
@@ -30,19 +28,36 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  
-
   @override
   Widget build(BuildContext context) {
-   return Scaffold(
-     body: Column(
-       children: [
-         Text("Hello"),
-         Text("how are you"),
-         Text("you are good")
-       ],
-     ),
-     
-   );
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("okay"),
+      ),
+      body: Center(
+        child:
+        Column(
+          children: [
+            Spacer(),
+           Container(
+             width: 100,
+             height: 100,
+             child: Text(
+               "Hello"
+             ),
+
+           ),
+            Spacer(),
+            Container(
+              width: 200,
+              height: 200,
+              child: Text(
+                "Test"
+              ),
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
