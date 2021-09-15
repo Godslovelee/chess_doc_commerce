@@ -48,7 +48,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
            ),
             Spacer(),
-            Spacer()
+            Spacer(),
+            Spacer(),
 
 
           ],
