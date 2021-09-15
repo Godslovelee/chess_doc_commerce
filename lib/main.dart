@@ -48,12 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
            ),
             Spacer(),
-            Container(
-              width: 200,
-              height: 200,
-              child: Text(
-                "Test"
-              ),
+
             )
           ],
         ),
