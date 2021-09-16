@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 100,
               child: Text("Hello"),
             ),
-            Spacer()
+
           ],
         ),
       ),
