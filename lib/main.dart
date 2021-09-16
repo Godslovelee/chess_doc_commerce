@@ -35,23 +35,15 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("okay"),
       ),
       body: Center(
-        child:
-        Column(
+        child: Column(
           children: [
             Spacer(),
-           Container(
-             width: 100,
-             height: 100,
-             child: Text(
-               "Hello"
-             ),
-
-           ),
-            Spacer(),
-            Spacer(),
-            Spacer(),
-
-
+            Container(
+              width: 100,
+              height: 100,
+              child: Text("Hello"),
+            ),
+            Spacer()
           ],
         ),
       ),
