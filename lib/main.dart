@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Spacer(),
             Container(
-              width: 100,
+              width: 150,
               height: 100,
               child: Text("Hello"),
             ),
